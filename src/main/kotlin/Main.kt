@@ -14,4 +14,19 @@ fun main() {
             tierra.parrilla[i][j] = Cuadrantes(drones, "Jack $i $j", "Vika $i $j")
         }
     }
+
+    var contador: Int = 1
+    while (contador < 120) {
+        if (contador % 4 == 0) {
+            recorrer_cuadrante(tierra, tet)
+        }
+        contador++
+    }
+
+}
+
+fun recorrer_cuadrante(tierra: Tierra, tet: Tet) {
+    for (j in tierra.parrilla){
+
+    }
 }
